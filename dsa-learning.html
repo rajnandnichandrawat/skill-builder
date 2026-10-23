@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>dsa Learning | Skill Builder</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Skill Builder
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="skills.html" class="active">
+                Skills
+            </a></li>
+
+            <li><a href="quiz.html">
+                Quiz
+            </a></li>
+
+            <li><a href="#">Dashboard</a></li>
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+        <i class="fa-solid fa-moon theme-toggle"></i>
+
+    </nav>
+
+
+
+    <!-- ================= HEADER ================= -->
+
+    <section class="learning-header">
+
+        <h1>
+            DSA Learning Path
+        </h1>
+
+        <p>
+            Learn DSA step-by-step with notes and video tutorials.
+        </p>
+
+    </section>
+
+
+    <!-- ================= PROGRESS SECTION ================= -->
+
+<section class="progress-section">
+
+    <h2>
+        Course Progress
+    </h2>
+
+    <div class="progress-bar-container">
+
+        <div class="progress-bar-fill"></div>
+
+    </div>
+
+    <p id="progress-text">
+        0 / 4 Topics Completed
+    </p>
+
+</section>
+
+
+
+    <!-- ================= TOPICS ================= -->
+
+    <section class="learning-topics">
+
+        <div class="topics-container">
+
+
+
+            <!-- TOPIC CARD -->
+
+            <div class="topic-card">
+
+                <h2>Introduction to Arrays</h2>
+
+                <p>
+                    Arrays are the collection of similar type of data,
+                    in continuous memmory allocation.
+                </p>
+
+                <div class="topic-buttons">
+
+    <a href="https://youtu.be/8wmn7k1TTcI?si=4tX_eDirlh7W7na7"
+       class="video-btn"
+       target="_blank">
+
+        Watch Video
+
+    </a>
+
+    <button class="complete-btn" disabled>
+
+        Mark Complete
+
+    </button>
+
+</div>
+
+            </div>
+
+
+
+            <!-- TOPIC CARD -->
+
+            <div class="topic-card">
+
+                <h2>String</h2>
+
+                <p>
+                    A string is a data structure that stores a sequence of character,
+                    such as letters, numbers, symbols, or spaces.
+                </p>
+
+                <div class="topic-buttons">
+
+    <a href="https://youtu.be/MOSjYaVymcU?si=y29UOrTkriL9jKF0"
+       class="video-btn"
+       target="_blank">
+
+        Watch Video
+
+    </a>
+
+    <button class="complete-btn" disabled>
+
+        Mark Complete
+
+    </button>
+
+</div>
+
+            </div>
+
+
+
+            <!-- TOPIC CARD -->
+
+            <div class="topic-card">
+
+                <h2>Linked List</h2>
+
+                <p>
+                    A linked list is a linear data structure where elements are not stored
+                    in neighboring memmory location, but are instead linked together using pointers.
+                </p>
+
+                <div class="topic-buttons">
+
+    <a href="https://youtu.be/LyuuqCVkP5I?si=cjjqy61Nzud_OtWK"
+       class="video-btn"
+       target="_blank">
+
+        Watch Video
+
+    </a>
+
+    <button class="complete-btn" disabled>
+
+        Mark Complete
+
+    </button>
+
+</div>
+
+            </div>
+
+
+
+            <!-- TOPIC CARD -->
+
+            <div class="topic-card">
+
+                <h2>Stack & Queue</h2>
+
+                <p>
+                    A stack is a linear data structure that follows the last-in-first-out 
+                    principle.
+                    A Queue is a linear data-structure that follows the First-In-First-Out 
+                    principle.
+                </p>
+
+                <div class="topic-buttons">
+
+    <a href="https://youtube.com/playlist?list=PLGjplNEQ1it-kmrbYmzQfLWjVOFj6JpEV&si=tPDRwJ93REVAJVcP"
+       class="video-btn"
+       target="_blank">
+
+        Watch Video
+
+    </a>
+
+    <button class="complete-btn" disabled>
+
+        Mark Complete
+
+    </button>
+
+</div>
+
+            </div>
+
+            <!-- TOPIC CARD -->
+
+            <div class="topic-card">
+
+                <h2>Tree & Graph</h2>
+
+                <p>
+                    A tree is a hierarchical data structure consisting of nodes 
+                    connected of nodes connected by edges, with a single root node at the top.
+                    A graph is a nework data structure consisting of a collection of vertices(nodes)
+                    connected by edges.
+                </p>
+
+                <div class="topic-buttons">
+
+    <a href="https://youtu.be/RpgyCJBbl5E?si=PMVb6RmHUtSMGOtV"
+       class="video-btn"
+       target="_blank">
+
+        Watch Video
+
+    </a>
+
+    <button class="complete-btn" disabled>
+
+        Mark Complete
+
+    </button>
+
+</div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= QUIZ BUTTON ================= -->
+
+    <section class="start-quiz-section">
+
+        <a href="quiz.html?skill=dsa">
+
+            <button id="start-quiz-btn">
+
+                Start Java Quiz
+
+            </button>
+
+        </a>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+
+        <!-- FOOTER ABOUT -->
+
+        <div class="footer-box">
+
+            <h2>
+                Skill Builder
+            </h2>
+
+            <p>
+                Skill Builder is an online learning platform
+                where students can learn coding skills,
+                watch tutorials and test their knowledge.
+            </p>
+
+        </div>
+
+
+
+        <!-- QUICK LINKS -->
+
+        <div class="footer-box">
+
+            <h2>
+                Quick Links
+            </h2>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="skills.html">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="quiz.html">
+                        Quiz
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-box">
+
+            <h2>
+                Contact
+            </h2>
+
+            <p>Email: skillbuilder@gmail.com</p>
+
+            <p>Phone: +91 9876543210</p>
+
+            <p>India</p>
+
+        </div>
+
+
+
+        <!-- SOCIAL ICONS -->
+
+        <div class="footer-box">
+
+            <h2>
+                Follow Us
+            </h2>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Skill Builder | All Rights Reserved
+        </p>
+
+    </div>
+
+</footer>
+    
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

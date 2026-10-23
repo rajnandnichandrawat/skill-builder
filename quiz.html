@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Skill Quiz | Skill Builder</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Skill Builder
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="skills.html">
+                Skills
+            </a></li>
+
+            <li><a href="quiz.html" class="active">
+                Quiz
+            </a></li>
+
+            <li><a href="#">Dashboard</a></li>
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+        <i class="fa-solid fa-moon theme-toggle"></i>
+
+    </nav>
+
+
+
+    <!-- ================= QUIZ SECTION ================= -->
+
+    <section class="quiz-section">
+
+        <div class="quiz-container">
+
+            <h1 id="quiz-title">
+                Skill Quiz
+            </h1>
+
+            <div class="quiz-box">
+
+                <!-- QUESTION -->
+
+                <h2 id="question">
+                    Question comes here
+                </h2>
+
+
+
+                <!-- OPTIONS -->
+
+                <div class="options">
+
+                    <button class="option-btn">
+                        Option 1
+                    </button>
+
+                    <button class="option-btn">
+                        Option 2
+                    </button>
+
+                    <button class="option-btn">
+                        Option 3
+                    </button>
+
+                    <button class="option-btn">
+                        Option 4
+                    </button>
+
+                </div>
+
+
+
+                <!-- NEXT BUTTON -->
+
+                <button id="next-btn">
+
+                    Next Question
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= RESULT BOX ================= -->
+
+    <section class="result-section">
+
+        <div class="result-box">
+
+            <h1>
+                Quiz Completed 🎉
+            </h1>
+
+            <p id="score-text">
+                Your Score: 0 / 5
+            </p>
+
+            <a href="skills.html">
+
+                <button>
+                    Back to Skills
+                </button>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
